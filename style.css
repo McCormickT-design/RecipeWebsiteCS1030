@@ -1,0 +1,61 @@
+body{background-color: rgb(222, 240, 250);
+    padding: 5px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header, footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: impact, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.measurements{
+    padding: 5;
+    margin-right: 25px;
+}
+.ingredients{
+    padding: 5px;
+    margin-bottom: 2em;
+}
+section{
+    overflow: auto;
+    padding: 20px;
+}
+.pizzadough, .pizzasauce, .meatball{
+    float: right;
+    width: 350px;
+}
+.pizza, .sauce{
+    float: left;
+    padding: 30px;
+}
+.muffin{
+    float: right;
+    width: 500px;
+}
+.food{
+    float: right;
+    width: 400px;
+}
+li{
+    margin-bottom: 5px;
+}
+table, td, th{
+    border: 1px dotted;
+    padding: 3px;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    background-color: rgb(253, 203, 203);
+}
+th{
+    background-color: rgb(248, 246, 214);
+}
+.intro{
+    text-align: center;
+    
+}
